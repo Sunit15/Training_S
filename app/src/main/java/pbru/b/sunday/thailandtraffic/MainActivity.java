@@ -20,8 +20,37 @@ public class MainActivity extends AppCompatActivity {
         //Initial Widget ผูกตัวแปร listView
         initialWidget();
 
+        //create ListView
+        createListView();
+
 
     }   // Main Method  เมธอดหลัก
+
+    private void createListView() {
+
+        String[] strTitle = new String[20];  //สร้างตัวแปรที่เป้น String 20 ตัว
+        strTitle[0] = "ห้ามเลี้ยวซ้าย";
+        strTitle[1] = "ห้ามเลี้ยวขวา";
+        strTitle[2] = "ตรงไป";
+        strTitle[3] = "เลี้ยขวา";
+        strTitle[4] = "เลี้ยวซ้าย";
+        strTitle[5] = "ออก";
+        strTitle[6] = "เข้า IN";
+        strTitle[7] = "ออก OUT";
+        strTitle[8] = "หยุด";
+        strTitle[9] = "จำกัดความสูง 2.5ม";
+        strTitle[10] = "ทางแยก";
+        strTitle[11] = "ห้ามกลับรถ";
+        strTitle[12] = "ห้ามจอด";
+        strTitle[13] = "รถสวน";
+        strTitle[14] = "ห้ามแซง";
+        strTitle[15] = "เข้า";
+        strTitle[16] = "หยุดตรวจ";
+        strTitle[17] = "จำกัดความเร็ว";
+        strTitle[18] = "จำกัดความกว้าง";
+        strTitle[19] = "จำกัดความสูง 5.0M";
+
+    } // createListView
 
     private void initialWidget() {
 
